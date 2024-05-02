@@ -1,0 +1,28 @@
+{
+  "produtos": [
+    {
+      "nome": "Super Man",
+      "preco": "10",
+      "imagem": "https://acdn.mitiendanube.com/stores/002/321/455/products/71n2atuapll-_ac_sl1500_-594e20bd920e00b5bf17061216722460-1024-1024.jpg",
+      "id": "1"
+    },
+    {
+      "id": "c229",
+      "nome": "Batman",
+      "preco": "20",
+      "imagem": "https://images.tcdn.com.br/img/img_prod/460977/pre_venda_batman_arkham_knight_batman_escala_1_6_hot_toys_17633_1_20201211172758.jpg"
+    },
+    {
+      "id": "a3d5",
+      "nome": "Batman",
+      "preco": "20",
+      "imagem": "https://images.tcdn.com.br/img/img_prod/460977/pre_venda_batman_arkham_knight_batman_escala_1_6_hot_toys_17633_1_20201211172758.jpg"
+    },
+    {
+      "id": "799e",
+      "nome": "Wolverine",
+      "preco": "50",
+      "imagem": "https://images.tcdn.com.br/img/img_prod/460977/pre_venda_action_figure_wolverine_classic_x_men_marvel_escala_1_6_sideshow_collectibles_55687_1_20201211155333.jpg"
+    }
+  ]
+}

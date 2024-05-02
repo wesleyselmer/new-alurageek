@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New AluraGeek</title>
+    <link rel="stylesheet" href="./css/reset.css" defer>
+    <link rel="stylesheet" href="./css/styles.css" defer>
+    <link rel="preconnect" href="https://fonts.googleapis.com" defer>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin defer>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet" defer>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet" defer>
+    <script src="./js/mostrarCards.js" type="module" defer></script>
+    <script src="./js/criarProduto.js" type="module"  defer></script>
+</head>
+<body>
+    <header>
+        <img class="logo" src="./img/logo.png" alt="Logo AluraGeek">
+    </header>
+    <main>
+        <section class="produtos">
+            <h1 class="form__titulo press-start-2p-regular">MEUS PRODUTOS:</h1>
+            <div class="produtos__lista">
+            </div>
+        </section>
+        <section class="form">
+            <form class="form__produto">
+                <h1 class="form__titulo press-start-2p-regular">ADICIONAR PRODUTO:</h1>
+                <input class="form__input ibm-plex-mono-semibold" name="nome"   id="nome"   type="text" placeholder=" Nome..."   required>
+                <span class="erro hidden" id="erro__nome">Informe um nome para o produto</span>
+                <input class="form__input ibm-plex-mono-semibold" name="preco"  id="preco"  type="text" placeholder=" Preço..."  required>
+                <span class="erro hidden" id="erro__preco">Informe um preço para o produto</span>
+                <input class="form__input ibm-plex-mono-semibold" name="imagem" id="imagem" type="text" placeholder=" URL Imagem..." required>
+                <span class="erro hidden" id="erro__imagem">Informe uma URL de imagem para o produto</span>
+                <div class="botoes">
+                    <button class="botao__guardar ibm-plex-mono-semibold" id="guardar" type="submit">Guardar</button>
+                    <button class="botao__limpar ibm-plex-mono-semibold" id="limpar" type="reset">Limpar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <img class="logo" src="./img/logo.png" alt="Logo AluraGeek">
+        <p class="credito ibm-plex-mono-semibold">Desenvolvido por Wesley Selmer</p>
+        <span class="anoDeCriacao ibm-plex-mono-regular">Curitiba - 2024</span>
+    </footer>
+</body>
+</html>
